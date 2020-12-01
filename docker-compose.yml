@@ -1,0 +1,10 @@
+version: '3'
+services:
+  gatsby_playground:
+    image: inspector_admin_frontend
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    
+
